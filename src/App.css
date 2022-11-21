@@ -1,0 +1,38 @@
+nav {
+    width: 100vw;
+    height: 4rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #1d1d1d;
+    color: #fff;
+    text-align: center;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+nav .logo h1 {
+    font-size: 1.4rem;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    margin: 0 1rem;
+    padding: 0.4rem 0.2rem;
+    border-bottom: 2px solid transparent;
+    text-align: center;
+    transition: 500ms;
+}
+
+nav .links a:hover,
+nav .links a.active {
+    color: #D9B4FF;
+    border-bottom: 2px solid #D9B4FF;
+}
+

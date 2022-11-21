@@ -1,0 +1,17 @@
+.tile-container {
+    margin: 0 auto 20px;
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0.8rem 0.8rem 0.8rem rgba(0,0,0,0.4);
+} 
+
+.tile-title {
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.tile {
+    font-size: 0.8rem;
+}

@@ -1,0 +1,55 @@
+.form-section {
+    width: 60rem;
+    max-width: 60%;
+    min-width: 271px;
+    margin: 0 auto 1rem;
+    padding: 2rem;
+    border: 1px solid;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 424px) {
+    .form-section {
+        min-width: 180px;
+    }
+
+    .form-section form #name,
+    .form-section form #email,
+    .form-section form #phone {
+        width: 20rem;
+        max-width: 95%;
+        margin: 10px auto 20px;
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .form-section form #name,
+    .form-section form #email,
+    .form-section form #phone {
+        width: 20rem;
+        max-width: 80%;
+        margin: 10px auto 20px;
+        font-size: 0.8rem;
+    }
+}
+
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section h2 {
+    font-size: 1rem;
+    margin: 0 0 2rem;
+}
+
+.form-section label {
+    font-size: 0.8rem;
+    margin: 0 0.2rem;
+}
+
+
