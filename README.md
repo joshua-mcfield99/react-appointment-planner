@@ -1,4 +1,4 @@
-#Appointment Planner with react
+# Appointment Planner with react
 
 This is a project by codecademey, I took this one with a pinch of salt as some things have changed with react that makes the project redundent in some terms. 
 
